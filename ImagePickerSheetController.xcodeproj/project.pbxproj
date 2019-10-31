@@ -12,6 +12,15 @@
 		961E4ECE2367E68800B90FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E4ECC2367E68800B90FB5 /* Main.storyboard */; };
 		961E4ED02367E68900B90FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E4ECF2367E68900B90FB5 /* Assets.xcassets */; };
 		961E4ED32367E68900B90FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961E4ED12367E68900B90FB5 /* LaunchScreen.storyboard */; };
+		961E4EE32367EB5A00B90FB5 /* ImagePickerSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EDB2367EB5A00B90FB5 /* ImagePickerSheetController.swift */; };
+		961E4EE42367EB5A00B90FB5 /* ImagePickerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EDC2367EB5A00B90FB5 /* ImagePickerCollectionView.swift */; };
+		961E4EE52367EB5A00B90FB5 /* ImageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EDD2367EB5A00B90FB5 /* ImageAction.swift */; };
+		961E4EE62367EB5A00B90FB5 /* ImagePreviewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EDE2367EB5A00B90FB5 /* ImagePreviewFlowLayout.swift */; };
+		961E4EE72367EB5A00B90FB5 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EDF2367EB5A00B90FB5 /* ImageCollectionViewCell.swift */; };
+		961E4EE82367EB5A00B90FB5 /* ImagePreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EE02367EB5A00B90FB5 /* ImagePreviewTableViewCell.swift */; };
+		961E4EE92367EB5A00B90FB5 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EE12367EB5A00B90FB5 /* AnimationController.swift */; };
+		961E4EEB2367EDD200B90FB5 /* PreviewSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4EEA2367EDD200B90FB5 /* PreviewSupplementaryView.swift */; };
+		961E4EED2367EEAE00B90FB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E4EEC2367EEAE00B90FB5 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,16 @@
 		961E4ECF2367E68900B90FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		961E4ED22367E68900B90FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		961E4ED42367E68900B90FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961E4EDB2367EB5A00B90FB5 /* ImagePickerSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerSheetController.swift; sourceTree = "<group>"; };
+		961E4EDC2367EB5A00B90FB5 /* ImagePickerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionView.swift; sourceTree = "<group>"; };
+		961E4EDD2367EB5A00B90FB5 /* ImageAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAction.swift; sourceTree = "<group>"; };
+		961E4EDE2367EB5A00B90FB5 /* ImagePreviewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewFlowLayout.swift; sourceTree = "<group>"; };
+		961E4EDF2367EB5A00B90FB5 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		961E4EE02367EB5A00B90FB5 /* ImagePreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewTableViewCell.swift; sourceTree = "<group>"; };
+		961E4EE12367EB5A00B90FB5 /* AnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		961E4EE22367EB5A00B90FB5 /* ImagePickerSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerSheetController.h; sourceTree = "<group>"; };
+		961E4EEA2367EDD200B90FB5 /* PreviewSupplementaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewSupplementaryView.swift; sourceTree = "<group>"; };
+		961E4EEC2367EEAE00B90FB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +75,30 @@
 			children = (
 				961E4EC82367E68800B90FB5 /* AppDelegate.swift */,
 				961E4ECA2367E68800B90FB5 /* ViewController.swift */,
+				961E4EDA2367EB3D00B90FB5 /* ImagePickerSheet */,
 				961E4ECC2367E68800B90FB5 /* Main.storyboard */,
 				961E4ECF2367E68900B90FB5 /* Assets.xcassets */,
 				961E4ED12367E68900B90FB5 /* LaunchScreen.storyboard */,
 				961E4ED42367E68900B90FB5 /* Info.plist */,
 			);
 			path = ImagePickerSheetController;
+			sourceTree = "<group>";
+		};
+		961E4EDA2367EB3D00B90FB5 /* ImagePickerSheet */ = {
+			isa = PBXGroup;
+			children = (
+				961E4EEC2367EEAE00B90FB5 /* Images.xcassets */,
+				961E4EEA2367EDD200B90FB5 /* PreviewSupplementaryView.swift */,
+				961E4EE12367EB5A00B90FB5 /* AnimationController.swift */,
+				961E4EDD2367EB5A00B90FB5 /* ImageAction.swift */,
+				961E4EDF2367EB5A00B90FB5 /* ImageCollectionViewCell.swift */,
+				961E4EDC2367EB5A00B90FB5 /* ImagePickerCollectionView.swift */,
+				961E4EE22367EB5A00B90FB5 /* ImagePickerSheetController.h */,
+				961E4EDB2367EB5A00B90FB5 /* ImagePickerSheetController.swift */,
+				961E4EDE2367EB5A00B90FB5 /* ImagePreviewFlowLayout.swift */,
+				961E4EE02367EB5A00B90FB5 /* ImagePreviewTableViewCell.swift */,
+			);
+			path = ImagePickerSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				961E4ED32367E68900B90FB5 /* LaunchScreen.storyboard in Resources */,
+				961E4EED2367EEAE00B90FB5 /* Images.xcassets in Resources */,
 				961E4ED02367E68900B90FB5 /* Assets.xcassets in Resources */,
 				961E4ECE2367E68800B90FB5 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961E4EE62367EB5A00B90FB5 /* ImagePreviewFlowLayout.swift in Sources */,
+				961E4EEB2367EDD200B90FB5 /* PreviewSupplementaryView.swift in Sources */,
 				961E4ECB2367E68800B90FB5 /* ViewController.swift in Sources */,
+				961E4EE82367EB5A00B90FB5 /* ImagePreviewTableViewCell.swift in Sources */,
+				961E4EE32367EB5A00B90FB5 /* ImagePickerSheetController.swift in Sources */,
+				961E4EE72367EB5A00B90FB5 /* ImageCollectionViewCell.swift in Sources */,
+				961E4EE42367EB5A00B90FB5 /* ImagePickerCollectionView.swift in Sources */,
+				961E4EE92367EB5A00B90FB5 /* AnimationController.swift in Sources */,
+				961E4EE52367EB5A00B90FB5 /* ImageAction.swift in Sources */,
 				961E4EC92367E68800B90FB5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
